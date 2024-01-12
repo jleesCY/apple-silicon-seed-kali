@@ -6,7 +6,9 @@ A link to the free version of UTM can be found [here](https://mac.getutm.app/). 
 
 ## Download the ISOs
 The nescessary isos can be downloaded from these links (onedrive)
+
 [SEED Labs](www.example.com)
+
 [Kali Linux](www.example.com)
 
 ## Set up the VMs
@@ -14,3 +16,17 @@ The nescessary isos can be downloaded from these links (onedrive)
 ### SEED Labs
 
 ### Kali Linux
+From the starting screen, click "Create a new Virtual Machine"
+<p align="center">
+  <image src="images/starting-screen.png" style="height:500px"></image>
+</p>
+
+Select "virtualize"
+<p align="center">
+  <image src="images/virtualize.png" style="height:500px"></image>
+</p>
+
+Select "other" (yes, even though we are building a linux machine)
+<p align="center">
+  <image src="images/other.png" style="height:500px"></image>
+</p>
