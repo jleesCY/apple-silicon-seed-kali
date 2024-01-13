@@ -135,6 +135,7 @@ You may have seen a notification several times from Ubuntu saying that there was
 
 For some reason Firefox was not opening on my UTM virtual machine. To fix this, simply enable and start the `snapd.apparmor` service
 ```sudo systemctl enable snapd.apparmor```
+
 ```sudo systemctl start snapd.apparmor```
 
 ##### Install the "HTTP Header Live" Firefox extension
@@ -156,7 +157,7 @@ From the UTM starting screen, select `Create a New Virtual Machine`, or select t
   <image src="images/starting-screen.png" style="height:500px"></image>
 </p>
 
-Select `open`, and select the 
+Select `open` 
 <p align="center">
   <image src="images/open-existing.png" style="height:500px"></image>
 </p>
