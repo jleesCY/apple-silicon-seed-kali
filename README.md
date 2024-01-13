@@ -4,18 +4,31 @@ As of Spring 2024
 ## Contents
 
 [Download UTM](#download-utm)
+
 [Download VMs](#download-the-vms)
+
 [Set Up the VMs](#set-up-the-vms)
+
 &nbsp;&nbsp;&nbsp;[SEED Labs](#seed-labs)
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Ubuntu 22.04](#ubuntu-2204)
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Installing SEED Tools](#installing-seed-tools)
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Final Steps](#final-steps)
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Disable Automatic Updates](#disable-automatic-updates)
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Fix "internal error" problem](#fix-internal-error-problem)
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Fix Firefox not opening](#fix-firefox-not-opening)
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Install the "HTTP Header Live" Firefox extension](#install-the-http-header-live-firefox-extension)
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Disable DNS over HTTPS](#disable-dns-over-https)
+
 &nbsp;&nbsp;&nbsp;[Kali Linux](#kali-linux)
+
 [Final Notes](#final-notes)
 
 
