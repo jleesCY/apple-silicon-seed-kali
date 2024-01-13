@@ -1,10 +1,28 @@
 # Setting up SEED and Kali Linux VMs on apple silicon using UTM
 As of Spring 2024
 
+## Contents
+
+[Download UTM](#download-utm)
+[Download VMs](#download-the-vms)
+[Set Up the VMs](#set-up-the-vms)
+&nbsp;&nbsp;&nbsp;[SEED Labs](#seed-labs)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Ubuntu 22.04](#ubuntu-2204)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Installing SEED Tools](#installing-seed-tools)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Final Steps](#final-steps)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Disable Automatic Updates](#disable-automatic-updates)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Fix "internal error" problem](#fix-internal-error-problem)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Fix Firefox not opening](#fix-firefox-not-opening)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Install the "HTTP Header Live" Firefox extension](#install-the-http-header-live-firefox-extension)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Disable DNS over HTTPS](#disable-dns-over-https)
+&nbsp;&nbsp;&nbsp;[Kali Linux](#kali-linux)
+[Final Notes](#final-notes)
+
+
 ## Download UTM
 A link to the free version of UTM can be found [here](https://mac.getutm.app/). There is a paid version on the mac appstore ($9.99 USD). The only difference between these versions is the fact that the paid version gets automatic updates. The free download needs to be manually updated.
 
-## Download Links
+## Download the VMs
 The nescessary UTM files can be downloaded here:
 
 [`Ubuntu 22.04 ARM64 UTM.zip`](https://1drv.ms/u/s!As06ehb0pJGBh-dfzYzdChnJhK6RUg?e=yTgODR) (OneDrive, 3.61GB)
@@ -14,7 +32,7 @@ The nescessary UTM files can be downloaded here:
 > **NOTE**: These exact files are available for download from the UTM site. However, they are quite slow to download, taking around 1 - 2 hours a piece. The provided links are the identical files provided by UTM, just serviced by OneDrive, which is far quicker. 
 
 ---
-## Set up the VMs
+## Set Up the VMs
 
 ### SEED Labs
 
@@ -42,7 +60,9 @@ Username: ```ubuntu```
 Password: ```ubuntu```
 
 Be sure to update the system before proceeding:
+
 ```sudo apt update```
+
 ```sudo apt upgrade```
 
 At this point, feel free to customize your machine to your liking.
@@ -52,17 +72,22 @@ At this point, feel free to customize your machine to your liking.
 > **NOTE**: The steps I followed were from SEED Labs' documentation found [here](https://github.com/seed-labs/seed-labs/blob/master/manuals/vm/seedvm-from-scratch.md#4-installing-software-packages)
 
 First, ensure git is installed
+
 ```sudo apt install git```
 
 Clone the SEED Labs setup repository
+
 ```git clone https://github.com/seed-labs/seed-labs.git```
 
-This should have created a directory called `seed-labs`.
+This should have created a directory called 
+`seed-labs`.
 
 Navigate to the directory containing the nescessary setup scripts
+
 ```cd seed-labs/lab-setup/ubuntu20.04-vm/src-vm```
 
 Run `main.sh` and all of the nescessary tools should begin to install.
+
 ```./main.sh```
 
 > **NOTE**: during the installation of Wireshark, you will be asked whether non-superuser should be able to capture packets. Choose `no`.
@@ -130,3 +155,6 @@ Username: `kali`
 Password: `kali`
 
 ---
+
+### Final Notes
+I have yet to do any SEED labs using this virtual machine. I also have yet to dive deep into the Kali Linux machine. *There may be things I missed in this setup*. If I do happen to find issues, I will be sure to document them on this page.
