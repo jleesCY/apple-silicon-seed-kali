@@ -134,6 +134,7 @@ You may have seen a notification several times from Ubuntu saying that there was
 ##### Fix Firefox not opening
 
 For some reason Firefox was not opening on my UTM virtual machine. To fix this, simply enable and start the `snapd.apparmor` service
+
 ```sudo systemctl enable snapd.apparmor```
 
 ```sudo systemctl start snapd.apparmor```
