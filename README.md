@@ -70,6 +70,7 @@ Find and select `Ubuntu 22.04.utm`.
 The machine should now automatically be added to your sidebar. Running the machine should be no problem. Login credentials are as follows:
 
 Username: ```ubuntu```
+
 Password: ```ubuntu```
 
 Be sure to update the system before proceeding:
@@ -165,6 +166,7 @@ Find and select `Kali Linux 2023.utm`.
 The machine should now automatically be added to your sidebar. Running the machine should be no problem. Login credentials are as follows:
 
 Username: `kali`
+
 Password: `kali`
 
 ---
