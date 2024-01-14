@@ -1,4 +1,4 @@
-# Setting up SEED and Kali Linux VMs on apple silicon using UTM
+# Setting up SEED and Kali Linux VMs on Apple silicon using UTM
 As of Spring 2024
 
 ## Contents
@@ -36,7 +36,7 @@ As of Spring 2024
 A link to the free version of UTM can be found [here](https://mac.getutm.app/). There is a paid version on the mac appstore ($9.99 USD). The only difference between these versions is the fact that the paid version gets automatic updates. The free download needs to be manually updated.
 
 ## Download the VMs
-The nescessary UTM files can be downloaded here:
+The necessary UTM files can be downloaded here:
 
 [`Ubuntu 22.04 ARM64 UTM.zip`](https://1drv.ms/u/s!As06ehb0pJGBh-dfzYzdChnJhK6RUg?e=yTgODR) (OneDrive, 3.61GB)
 
@@ -57,12 +57,12 @@ Unzip `Ubuntu 22.04 ARM64 UTM.zip` and save the `.utm` file somewhere you can fi
 
 From the UTM starting screen, select `Create a New Virtual Machine`, or select the `+` in the upper left corner
 <p align="center">
-  <image src="images/starting-screen.png" style="height:500px"></image>
+  <image src="images/starting-screen.png" style="width:85vw"></image>
 </p>
 
 Select `open`
 <p align="center">
-  <image src="images/open-existing.png" style="height:500px"></image>
+  <image src="images/open-existing.png" style="width:40vw"></image>
 </p>
 
 Find and select `Ubuntu 22.04.utm`.
@@ -79,7 +79,7 @@ Be sure to update the system before proceeding:
 
 ```sudo apt upgrade```
 
-At this point, feel free to customize your machine to your liking.
+At this point, you can customize your machine to your liking.
 
 #### Installing SEED Tools
 
@@ -96,28 +96,28 @@ Clone the SEED Labs setup repository
 This should have created a directory called 
 `seed-labs`.
 
-Navigate to the directory containing the nescessary setup scripts
+Navigate to the directory containing the necessary setup scripts
 
 ```cd seed-labs/lab-setup/ubuntu20.04-vm/src-vm```
 
-Run `main.sh` and all of the nescessary tools should begin to install.
+Run `main.sh` and all of the necessary tools should begin to install.
 
 ```./main.sh```
 
-> **NOTE**: during the installation of Wireshark, you will be asked whether non-superuser should be able to capture packets. Choose `no`.
+> **NOTE**: during the installation of Wireshark, you will be asked whether a non-superuser should be able to capture packets. Choose `no`.
 
 #### Final Steps
 ##### Disable automatic updates
 We do not want the system to automatically update. Open `Software and Updates`
 
 <p align="center">
-  <image src="images/software-and-updates.png" style="height:200px"></image>
+  <image src="images/software-and-updates.png" style="width:50vw"></image>
 </p>
 
 Under the `Updates` tab, change the settings for "automatically check for updates" and "notify me of a new Ubuntu version" to `Never`
 
 <p align="center">
-  <image src="images/updates-settings.png" style="height:300px"></image>
+  <image src="images/updates-settings.png" style="width:75vw"></image>
 </p>
 
 ##### Fix "internal error" problem
@@ -126,7 +126,7 @@ You may have seen a notification several times from Ubuntu saying that there was
 1. Go to `Settings` --> `Privacy` --> `Diagnostics`, and change "Send error report to Canonical" to `Never`.
 
 <p align="center">
-  <image src="images/error-reports.png" style="height:300px"></image>
+  <image src="images/error-reports.png" style="width:75vw"></image>
 </p>
 
 2. Ensure that in `/etc/default/apport`, `enabled=0`
@@ -155,12 +155,12 @@ Unzip `Kali Linux 2023 ARM64 UTM.zip` and save the `.utm` file somewhere you can
 
 From the UTM starting screen, select `Create a New Virtual Machine`, or select the `+` in the upper left corner
 <p align="center">
-  <image src="images/starting-screen.png" style="height:500px"></image>
+  <image src="images/starting-screen.png" style="width:85vw"></image>
 </p>
 
-Select `open` 
+Select `open`
 <p align="center">
-  <image src="images/open-existing.png" style="height:500px"></image>
+  <image src="images/open-existing.png" style="width:40vw"></image>
 </p>
 
 Find and select `Kali Linux 2023.utm`.
