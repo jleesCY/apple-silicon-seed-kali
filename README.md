@@ -27,6 +27,8 @@ As of Spring 2024
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Disable DNS over HTTPS](#disable-dns-over-https)
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Create the /home/seed Directory](#create-the-home-seed-directory)
+
 &nbsp;&nbsp;&nbsp;[Kali Linux](#kali-linux)
 
 [Final Notes](#final-notes)
@@ -147,6 +149,12 @@ This extension is nescessary for some of the SEED labs. It can be added to firef
 ##### Disable DNS over HTTPS
 
 To ensure DNS over HTTPS is disabled in firefox, click the menu button and select `Settings`. Search for "DNS over HTTPS", and make sure the `Status` is `Off`
+
+##### Create the /home/seed Directory
+
+Some labs require that a /home/seed directory exists. It is not created by the seed setup scripts, so we must do it manually.
+
+```sudo mkdir /home/seed```
 
 ---
 ### Kali Linux
