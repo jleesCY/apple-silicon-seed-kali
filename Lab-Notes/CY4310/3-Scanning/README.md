@@ -12,3 +12,10 @@ I had to find a Nessus version compatible with ARM64, since that is what archite
 I had to stop the snort service by running `sudo systemctl stop snort`
 
 On the lab instructions it says to run `sudo systemctl snort stop`, which did not work for me
+
+### Part 5c (SYN Scan)
+I had to create the `/home/seed` directory manually for this step, since it is not created by default by the seed setup scripts.
+
+`sudo mkdir /home/seed`
+
+`sudo touch /home/seed/alert.log`
