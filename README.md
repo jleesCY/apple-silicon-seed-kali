@@ -174,4 +174,6 @@ Password: `kali`
 ---
 
 ### Final Notes
-I have only done a few SEED labs using this virtual machine. I also have yet to dive deep into the Kali Linux machine. *There may be things I missed in this setup*. If I do happen to find issues, I will be sure to document them on this page.
+I have only done a few SEED labs using this virtual machine. I also have yet to dive deep into the Kali Linux machine. *There may be things I missed in this setup*. If I do happen to find issues, I will be sure to document them.
+
+I am actively taking notes as I complete labs. They can be found in the [Lab-Notes](https://github.com/jleesCY/apple-silicon-seed-kali/tree/main/Lab-Notes/) folder
