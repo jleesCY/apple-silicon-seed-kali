@@ -10,4 +10,5 @@ I had to find a Nessus version compatible with ARM64, since that is what archite
 
 ### Part 5 Setup
 I had to stop the snort service by running `sudo systemctl stop snort`
+
 On the lab instructions it says to run `sudo systemctl snort stop`, which did not work for me
