@@ -27,7 +27,7 @@ As of Spring 2024
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Disable DNS over HTTPS](#disable-dns-over-https)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Create the /home/seed Directory](#create-the-home-seed-directory)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Create the /home/seed Directory](#create-the-homeseed-directory)
 
 &nbsp;&nbsp;&nbsp;[Kali Linux](#kali-linux)
 
