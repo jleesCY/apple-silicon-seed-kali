@@ -6,51 +6,62 @@ The Labsetup document provided on canvas is not the correct architecture for our
 Docker-compose is not installed by default on the UTM SEED machine. To do so, we need to jump through a few hoops.
 
 Ensure everything is up to date:
-
-```sudo apt-get update; sudo apt-get upgrade```
+```
+sudo apt-get update; sudo apt-get upgrade
+```
 
 Add the docker repository key:
-
-```curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -```
+```
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+```
 
 Add the Docker ARM64 Repository
-
-```sudo add-apt-repository "deb [arch=arm64] https://download.docker.com/linux/ubuntu focal stable"```
+```
+sudo add-apt-repository "deb [arch=arm64] https://download.docker.com/linux/ubuntu focal stable"
+```
 
 Install dependencies
-
-```sudo apt install -y apt-transport-https ca-certificates curl software-properties-common```
+```
+sudo apt install -y apt-transport-https ca-certificates curl software-properties-common
+```
 
 Install docker (run this even if it may already be installed)
-
-```sudo apt install -y docker-ce```
+```
+sudo apt install -y docker-ce
+```
 
 Verify Docker Installation
-
-```sudo systemctl status docker```
+```
+sudo systemctl status docker
+```
 
 If it is not started, start it
-
-```sudo systemctl start docker```
+```
+sudo systemctl start docker
+```
 
 If it fails to start, wait for a bit longer, then try starting it again
 
 Lastly, ensure everything is up-to-date once more:
-
-```sudo apt-get update; sudo apt-get upgrade```
+```
+sudo apt-get update; sudo apt-get upgrade
+```
 
 #### Install docker-compose
 Get the binary
-
-```sudo curl -L “https://github.com/docker/compose/releases/download/v2.18.1/docker-compose-$(uname -s)-$(uname -m)” -o /usr/local/bin/docker-compose```
+```
+sudo curl -L “https://github.com/docker/compose/releases/download/v2.18.1/docker-compose-$(uname -s)-$(uname -m)” -o /usr/local/bin/docker-compose
+```
 
 Make it executable
-
-```sudo chmod +x /usr/local/bin/docker-compose```
+```
+sudo chmod +x /usr/local/bin/docker-compose
+```
 
 Verify the installation
-
-```docker-compose --version```
+```
+docker-compose --version
+```
 
 #### Edit aliases
 SEED already has aliases set up, but we need to edit them. Edit ~/.bashrc by: adding `sudo` to all docker commands
