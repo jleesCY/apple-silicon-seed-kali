@@ -1,5 +1,5 @@
 ### Task 1: Setup
-The Labsetup document provided on canvas is not the correct architecture for our system (provided is amd64, we need arm64). The arm version of the same docker containers is available on the seed website for download. However, this does not include `attacker.c`. I have provided an identical file for download, which includes the `attacker.c` file, and works on the UTM SEED machine:
+The Labsetup document provided on canvas is not the correct architecture for our system (provided is amd64, we need arm64). The arm version of the same docker containers is available on the seed website for download. I have provided the identical file for download: 
 
 [`Labsetup-arm.zip`](https://1drv.ms/u/s!As06ehb0pJGBh-xjFfEAAmUqQ0Tnxg?e=oe7QS3) (Onedrive, 8.44 KB)
 
