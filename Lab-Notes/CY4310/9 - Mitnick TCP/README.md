@@ -5,7 +5,7 @@ We need the arm version of the lab setup folder, which is available on the seed 
 
 Alternatively, you can download it from SEED [here](https://seedsecuritylabs.org/Labs_20.04/Files/Mitnick_Attack/Labsetup-arm.zip)
 
-Assuming docker has already been correctly set up using the steps from my notes on Lab 5 (starting at the section titled ["Install the correct version of Docker"](https://github.com/jleesCY/apple-silicon-seed-kali/tree/main/Lab-Notes/CY4310/5%20-%20DNS%20Spoofing#install-the-correct-version-of-docker)), `cd` into `Labsetup-arm` and run
+Assuming docker has already been correctly set up using the steps from my notes on Lab 5 (from ["Install the correct version of Docker"](https://github.com/jleesCY/apple-silicon-seed-kali/tree/main/Lab-Notes/CY4310/5%20-%20DNS%20Spoofing#install-the-correct-version-of-docker) to the end), `cd` into `Labsetup-arm` and run
 
 ```
 dcbuild
